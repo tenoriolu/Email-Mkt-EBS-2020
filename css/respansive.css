@@ -1,0 +1,157 @@
+@media (max-width: 767px) {
+
+}
+
+@media screen and 
+(min-width: 320px) and 
+(max-width: 599px){
+
+    body{
+        text-shadow: 0.1em 0.1em 0.2em #2a2a2a;
+        background-color: #fff;
+    }
+
+    h1{
+        
+        margin-bottom:0px;
+        margin-top: 40px;
+        font-size: 60px;;
+    }
+
+    .container{
+        width: 95%;
+        margin: auto;
+        margin-top: 4px;
+        min-width: 320px!important;
+        max-height: 1500px; ;
+    }
+
+    .banner{
+        background-image: url(../images/bg-banner.jpg);
+        background-size: cover;
+        width: 80%;
+        height: 440px;
+        text-align: center;
+        padding: 10% 10%;
+        margin-bottom: 1.5%;
+        min-width: 320px;
+        max-width: 600px;
+    }
+    .banner img{
+        margin-bottom: 40px;
+    }
+
+    .banner h1{
+        font-size: 45px;
+        margin-bottom: 5px;
+        
+    }
+    
+    .banner h2{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+    
+    .banner h3{
+        color: #fff;
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    /* inicio box*/
+
+.box-bg, .box-bg-2{
+    background-position: left;
+    text-align: center;
+    float: left;
+    min-width: 320px;
+    
+    
+}
+
+.box-left-1{
+    background-image: url(../images/img-box-1-1.png);
+    background-position: left;
+    float: left;
+    text-align: center;
+}
+
+.box-left-2{
+    background-image: url(../images/img-box-3-1.png);
+    background-position: left;
+    float: left;
+    text-align: center;
+}
+
+.box-left-1 p{
+    text-align: center;
+    float: left;
+    margin-left: 0;
+    width: 100%;
+
+}
+.box-right-1{
+    background-image: url(../images/img-box-2-1.png);
+    background-position: right;
+    float: left;
+    text-align: center;
+}
+.box-right-2{
+    background-image: url(../images/img-box-4-1.png);
+    background-position: left;
+    float: left;
+    text-align: center;
+}
+
+
+
+.box-bg h4{
+    width: 100%;
+    float: none;
+  text-align: center;
+  margin-left: 0;
+  color: #fff
+    }
+
+.box-bg h1{
+    width: 100%;
+    float: left;
+    text-align: center;
+
+}
+
+.box-bg-2 h1{
+    width: 100%;
+    float: right;
+    position: absoluta;
+    z-index: 1;
+}
+
+.box-bg-2 h4{
+    float: none;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    position: relative;
+    color: #fff;
+    z-index: 2;
+    }
+    .box-bg-2  p{
+    float: none;
+    text-align: center;
+    position: relative;
+    margin-left: 0px;
+    z-index: 2;
+    margin-top: 0;
+    
+    }
+
+    .box-4{
+        margin-top: 0px!important;
+        margin-left: 0!important;
+
+    }
+
+}
